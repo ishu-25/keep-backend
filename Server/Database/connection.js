@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-mongoose.connect('mongodb://localhost:27017/Gkeep-Notes')
+mongoose.connect('mongodb://localhost:27017/Gkeep-notes')
 .then(()=>{
     console.log('Connection Successful')
 }).catch((e)=>{
