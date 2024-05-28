@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-mongoose.connect('mongodb+srv://ishika25:ishika5724@keep-cluster.ehghwtu.mongodb.net/?retryWrites=true&w=majority&appName=keep-cluster')
+mongoose.connect('mongodb://localhost:27017/Gkeep-Notes')
 .then(()=>{
     console.log('Connection Successful')
 }).catch((e)=>{
